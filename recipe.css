@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    display:none
+}
+
 .container{
     height: 10vh;
     width: 100vw;
-    overflow-x: none;
-    overflow-y: none;
+    overflow-x: 0;
+    overflow-y: 0;
 
 
 }
